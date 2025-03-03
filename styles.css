@@ -116,11 +116,13 @@ section:last-child, tr:last-child {
     font-weight: 600;
 }
 
-@media (max-width:800px){
+@media (max-width:1000px){
     #container, img {
         border-radius: 0;
         width: 100vw;
         max-width: 100vw;
+        padding: 0em;
+        padding-bottom: 1em;
     }
     body {
         padding: 0;
@@ -133,5 +135,9 @@ section:last-child, tr:last-child {
         /* margin: -2em -2em -2em; */
         box-sizing: border-box;
         position:relative;
+    }
+    #container > p, #container > div,section, h1 {
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 }

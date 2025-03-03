@@ -116,7 +116,7 @@ section:last-child, tr:last-child {
     font-weight: 600;
 }
 
-@media (max-width:500px){
+@media (max-width:800px){
     #container, img {
         border-radius: 0;
         width: 100vw;
